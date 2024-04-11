@@ -221,4 +221,8 @@ header .flex-container nav ul li .contato-a {
         letter-spacing: 3px;
         font-size: 15px;
     }
+
+    #home .flex-container .imagem img {
+        max-width: 200px;
+    }
 }
