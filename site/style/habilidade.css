@@ -5,7 +5,7 @@
 #habilidade h2 {
     color: #fff;
     text-align: center;
-    font-size: 40px;
+    font-size: max(22px, 3vw);
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 50px;
 }
@@ -18,7 +18,7 @@
 
 #habilidade ul li {
     width: 20%;
-    min-width: 250px;
+    min-width: 50px;
     margin: 20px 10px;
     padding: 30px;
     background-color: #000;
@@ -27,7 +27,7 @@
 }
 
 #habilidade ul li:hover {
-    animation: downUp .6s alternate infinite linear;
+    animation: downUp .8s alternate infinite linear;
 }
 
 @keyframes downUp {
@@ -35,7 +35,7 @@
         transform: translateY(0px);
     } 
     to {
-        transform: translateY(-20px);
+        transform: translateY(-10px);
     }
 }
 
