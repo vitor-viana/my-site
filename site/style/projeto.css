@@ -21,14 +21,15 @@
 #projeto ul li {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 35%;
     min-width: 300px;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
-    margin: 15px;
-    padding: 15px;
+    margin: 30px 10px;
+    padding: 20px;
     background-color: #000;
+    border: solid 1px #3299CC;
 }
 
 #projeto ul li img {
