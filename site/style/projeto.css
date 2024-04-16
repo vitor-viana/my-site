@@ -12,6 +12,13 @@
     font-weight: bold;
     cursor: pointer;
     outline: none;
+    transition: .3s;
+}
+
+#show-more-btn:hover {
+    background-color: #000;
+    border: solid 1px #3299CC;
+    color: #fff;
 }
 
 #projeto .flex-container {
@@ -72,6 +79,13 @@
     padding: 20px 30px;
     margin-top: 20px;
     border-radius: 30px;
+    transition: .3s;
+}
+
+#projeto ul li a:hover {
+    background-color: #000;
+    border: solid 1px #3299CC;
+    color: #fff;
 }
 
 @media (max-width: 600px) {

@@ -79,6 +79,7 @@ header .flex-container nav ul li .contato-a {
     border-radius: 30px;
     margin-top: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    transition: .3s;
 }
 
 #home .flex-container .titulo a:hover {
