@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style/geral.css">
     <link rel="stylesheet" href="./style/habilidade.css">
     <link rel="stylesheet" href="./style/home-header.css">
-    <script src="./script.js"></script>
+    
 </head>
 <body>
     <header>
@@ -68,7 +68,8 @@
     <div id="projeto">
         <div class="flex-container">
             <h2>Projetos</h2>
-            <ul>
+            
+            <ul id="project-ul">
                 <li>
                     <img src="./img/projeto/busca-cep.png" alt="">
                     <h3>Busca CEP</h3>
@@ -94,7 +95,24 @@
                     <a href="#">Abrir Projeto</a>
                 </li>
             </ul>
+            <ul id="more-project-ul">
+                <li>
+                    <img src="./img/projeto/send-email.png" alt="">
+                    <h3>Send E-mail API</h3>
+                    <p>API REST de envio de e-mails. Esta API é um micro serviço de envio de e-mails que utiliza o servidor SMTP do Gmail.</p>
+                    <a href="#">Abrir Projeto</a>
+                </li>
+                <li>
+                    <img src="./img/projeto/cjj.png" alt="">
+                    <h3>Web App CJJ</h3>
+                    <p>Este projeto é um dos meus favoritos e foi um dos meus primeiros. Eu o desenvolvi para ajudar meus professores de Jiu-Jitsu. Quando o criei não tinha muita noção de como funcionava o processo de desenvolvimento de um sistema web. Trata-se de um sistema de gerenciamento de alunos que controla a presença e a ficha técnica, incluindo graduação, peso e todos os requisitos de um atleta.</p>
+                    <a href="#">Abrir Projeto</a>
+                </li>
+            </ul>
+            <button id="show-more-btn">mostrar mais</button>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
