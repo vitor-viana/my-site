@@ -29,7 +29,7 @@
 #projeto h2 {
     color: #fff;
     text-align: center;
-    font-size: max(22px, 3vw);
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 50px;
     margin-top: 100px;
@@ -68,6 +68,10 @@
 
 #projeto ul li h3, p {
     text-align: center;
+}
+
+#projeto ul li .tecnologias-p {
+    margin-top: 10px;
 }
 
 #projeto ul li a {
