@@ -2,7 +2,8 @@
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-color: #3299CC;
+    background-color: #2d2d2d;
+    color: #fff;
     border: none;
     border-radius: 30px;
     margin: 0 0 50px 0;
@@ -17,8 +18,7 @@
 
 #show-more-btn:hover {
     background-color: #000;
-    border: solid 1px #3299CC;
-    color: #fff;
+    box-shadow: 1px 3px 8px #3299CC;
 }
 
 #projeto .flex-container {
@@ -88,7 +88,7 @@
 
 #projeto ul li a:hover {
     background-color: #000;
-    border: solid 1px #3299CC;
+    box-shadow: 1px 3px 8px #3299CC;
     color: #fff;
 }
 
