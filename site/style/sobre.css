@@ -4,6 +4,7 @@
 
 #sobre .flex-container {
     flex-direction: column;
+    max-width: 800px;
 }
 
 #sobre h2 {
