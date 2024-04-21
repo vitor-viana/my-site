@@ -64,10 +64,13 @@
 
 #projeto ul li h3 {
     margin: 15px;
+    text-align: center;
+    font-size: 18px;
 }
 
-#projeto ul li h3, p {
+#projeto ul li p {
     text-align: center;
+    font-size: 12px;
 }
 
 #projeto ul li .tecnologias-p {
