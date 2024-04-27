@@ -4,12 +4,11 @@ header .flex-container {
 }
 
 header .flex-container #logo {
-    letter-spacing: 5px;
-    color: #3299CC;
-    font-weight: bold;
     width: 20%;
-    font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .flex-container #logo img {
+    width: 50px;
 }
 
 header .flex-container nav {
