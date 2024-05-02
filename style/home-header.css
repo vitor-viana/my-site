@@ -8,7 +8,7 @@ header .flex-container #logo {
 }
 
 header .flex-container #logo img {
-    width: 50px;
+    width: 150px;
 }
 
 header .flex-container nav {
@@ -94,21 +94,20 @@ header .flex-container nav ul li .contato-a {
 }
 
 #home .flex-container .imagem img {
-    width: 60%;
+    max-width: 300px;
     border-radius: 1000px;
-    border: solid 3px #000;
 }
 
 @media (max-width: 1100px) {
     header .flex-container #logo {
-        width: 70%;
+        width: 50%;
         display: flex;
         justify-content: left;
         margin-left: 15px;
     }
 
     header .flex-container nav {
-        width: 30%;
+        width: 50%;
         display: flex;
         justify-content: right;
         margin-right: 15px;
@@ -190,16 +189,12 @@ header .flex-container nav ul li .contato-a {
         letter-spacing: 1px;
     }
 
-    header .flex-container #logo {
-        letter-spacing: 3px;
-        font-size: 15px;
-    }
-
     #home .flex-container .imagem img {
         width: 150px;
     }
 
     #home .flex-container .titulo a {
         width: 150px;
-        padding: 15px 8px;
+        padding: 15px 0;
+    }
 }
