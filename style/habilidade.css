@@ -25,6 +25,8 @@
     background-color: #000;
     border-radius: 15px;
     border: solid 1px #3299CC;
+    display: flex;
+    align-items: center;
 }
 
 #habilidade ul li:hover {
