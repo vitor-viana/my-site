@@ -67,6 +67,20 @@ header .flex-container nav ul li .contato-a {
     letter-spacing: 3px;
 }
 
+#home .flex-container .titulo p {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 8px;
+    max-width: 250px;
+}
+
+#home .flex-container .titulo p img {
+    width:30px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
 #home .flex-container .titulo a {
     text-align: center;
     text-decoration: none;
@@ -76,7 +90,7 @@ header .flex-container nav ul li .contato-a {
     padding: 20px 0;
     width: 200px;
     border-radius: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     transition: .3s;
 }
@@ -167,7 +181,11 @@ header .flex-container nav ul li .contato-a {
     #home .flex-container .titulo h2 {
         font-size: 20px;
     }
-   
+
+    #home .flex-container .titulo p {
+        margin: 8px 15px 0 15px;
+    }
+    
     #home .flex-container .imagem {
         width: 100%;
         margin-bottom: 30px;
